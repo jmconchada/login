@@ -1,0 +1,125 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.social-login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #667eea, #764ba2);
+}
+
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+
+.form.title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+.input-group i {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    font-size: 16px;
+}
+
+
+.input-group input {
+    width: 100%;
+    padding: 12px 10px;
+    padding-left: 40px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    background: transparent;
+    transition: 0.3s;
+}
+
+
+.input-group label {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #999;
+    pointer-events: none;
+    transition: 0.3s ease-in-out;
+}
+
+
+.input-group input:focus + label,
+.input-group input:not(:placeholder-shown) + label {
+    top: 5px;
+    font-size: 12px;
+    color: #667eea;
+}
+
+
+.input-group input::placeholder {
+    color: transparent;
+}
+
+
+.recover {
+    margin-bottom: 15px;
+}
+
+.recover a {
+    color: #667eea;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.recover a:hover {
+    text-decoration: underline;
+}
+
+
+.btn {
+    background: #5c67f2;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #4a54e1;
+}
